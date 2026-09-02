@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<title>Good Eats</title>
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="manifest" href="data:application/json;base64,eyJuYW1lIjogIkdvb2QgRWF0cyIsICJzaG9ydF9uYW1lIjogIkdvb2QgRWF0cyIsICJzdGFydF91cmwiOiAiLiIsICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLCAiYmFja2dyb3VuZF9jb2xvciI6ICIjRTNENUI0IiwgInRoZW1lX2NvbG9yIjogIiM0RjVFNDAiLCAiaWNvbnMiOiBbeyJzcmMiOiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFNQUFBQURBQ0FZQUFBQlMzR3dIQUFBRyswbEVRVlI0bk8zZE9WSWNRUkNGNFJwQ0IrTUdPRVRnWVhNa2JEd2ljTGdCTjBNR2F0UU12ZFNTbVpWVitYOFJzaVNnMGJ4WGxiME1YSkl6ZDQrM243MlBBWHJlWHo0dXZZOWhyZXZCRUhhazFMY1U1bCtZME9PSWRSbk12aGpCUndtcklxaC9FWUtQRnRwRlVQdmtCQitTdElvZy9ra0pQalJKRitGRzhwTVJmbWlUenBoSW13ZytlcERZRFpwM0FNS1BYaVN5MTFRQXdvL2VXak5ZWFFEQ0R5OWFzbGhWQU1JUGIyb3pXVndBd2crdmFySlpWQURDRCs5S001cDlHYWxuK04rZVgzdDlhVFM0ZjNybzlyVnpMNUZtL1NQcjhCUDRPVmtYSXFjRXAvL0FLdnhIb2UrNWtxQ2VoOWYwckFUZEM3RDFuMFRnNTlUanRXNHFnR2I0Q1g1YzFxLzlVUWwyLzhJcS9JUStOcXNzN0pWQTlHblFISVFmYStzTTlMajRzZGtLamRXZjRPT01ka2EyZGdHVEhZRHdJMGVQM2VCWEFhUlhmOEtQRXBvbDJNcTI2ZzVBK0ZIRGNpZjRVUURKMVovd280VldDYTR6cm40T1FQaFJ5eUk3M3dYUVdQMEpQMW90R2RMYUJjUjNBTUlQYVJvbFdJZ1dnS2M0b1UwNll6Y3B5Vi82WlBXSE5PbE1MWmtYMndFWWZhQk5ZeFF5ZnhZSThFU2tBTXorc0NhVk9kRWRnUEVIMnFRemRzTlBlb2lEbmZxbnU4ZmJ6MHRyQVRqNUhjZDFBVVoremFSeTkwZmlZR1kxMC9OTVc2di9UTjlmTGE0Q0lUUUtjS0QzMi9Xc1JGMzlVMm9zd09qei85dno2L2NmakVYcXBoZzd3SWtaZG9GUmo5dEM2QUxNRU81V28rN2VVcWErQ3NSVkRwd0p2UVBrR25tbkdPMTRyVTFkZ0p6Z2poenVWdXlLa3hjQU9FTUJNczIyVTdENmY1bStBSkhIb0ptK0Z5M1RGMERTckVXSmpBSUV4UGp6WDRnQ1JCeURadmdlTElRb2dLVFppaElkQlZpSk1CcEUrQjVMaENsQTZjcWQreHNPUGU0Q0hvL0pxekFGQUxhRUtrRE85dTk5ZFcvQitQTmJxQUtzdFlaNzVxSkVFcllBczZLTVpjSVZRT0tld0lodm8yVDgyUmF1QUMyT2dqOWFJZkJsNm5lRVNka0t0K1l2YmFqbDZWaEdFWElIeUJseGpqNTIvZkVqbkF3ei91eGpCMWpKdmZtRmVWQ0F0RC9pNUs3b25zdmgrZGc4Q0RrQ3BiUWZqUFdJTThKNHMvQitmRjZ4QS96RFNoa1RCVGh4WFl5MzU5ZGh5akxLY2ZZVWRnUktxV3pFOFh6enkrdHhqU0IwQVhKc0JaL0F6U1A4Q0RUcm1ERHI5eVdOSGVBRVFab2JCYWprWlF6eWNoeWpvZ0FUWXRmS1J3RXk3QVdLMVhkOEZHQmdGTEFkQmNnMHlsZ3h5bkY2UVFFYXNRcVBqUUlNaXVMSm9BQUZ2SThYM28vUEl3b2dnTlY0WEJRQW9WR0FRaDd1Q1J5OVNSOWxLQUJDb3dBVnZLMjIzbzVuSkJSQWtNVVl4QW0zTEFxQTBDaEFKUzlqaDVmakdCVUZFTWFJTWhZS01CREtKWThDTkxDOEo4QzFmeDBVWUVBRVh3NEZhR1FSeHIwZnk4SkkxSTRDS0NHY1k2QUFBMk1VYWtjQkJHZ0drWjFFRndWUVJIajlvd0NPOFJ0cjlGRUFJUVJ5VEJSQW1jWVlSTm5rVUFDbk9IK3dRUUVFZVhpN0pNcFFnTUV3L3NpaUFNSWtBc3FPWVljQ0dDSFVQbEdBZ1REK3lLTUFDbHFDeWs1aGl3SVlJdHorVUFCSGVQVEJIZ1ZRd2oyQk1WQ0FBYkQ2NjZFQWlrcUN5ODdRQndYb2dMRDdRUUdjWS96UlJRR1U1UVNZSGFFZkN0QUpvZmVCQWpqRytLT1BBaGc0dWlmQVR0QVhCVUJvRk1CSTZUakQrR09EQWlBMEN1QVFxNzhkQ21DSVlQdERBUkFhQlhDR1hjSVdCVEJHd0gyaEFBaU5BampDN21DUEFoZzdldlNCeHlMc1VRQ0VSZ0VRR2dVd2xEUGlNQWJab2dBSWpRSVlZV1gzaVFJNFJGbnNVQUNFUmdFTTFQek1UM1lCR3hRQW9WR0FqcGJWbjBjZytxRUF5bHBHR2NZZ2ZSUUFvVkdBVHE3SEhzYWdQaWlBSW9rUmhqRklGd1ZBYUJSQVNjMjFmKzRKMktNQUNJMENHRHM3MmVWazJCWUZVS0F4c2pBRzZhQUFDTzFQN3dPWTBYcU1XYS9jdWVQTi9kTkQxY2VoWE5NT3NMd3diTS83N3A4ZXFnUGM4ckd6V3pMWCt2L0RDR1NFM3cvZ0V3VkFhQlFBb1RVWGdQTUFXSk9hLzFOSzZlYjk1ZVBTL0ZtQUFiMi9mRnhFUnlCMkFXaVR6cGhJQWJoaUFXdFNtZU1rR0tHSkZZQ1RZV2lUUFBsZDNLVDBkVElnOWhrVEpZQTg2VXd0bVJjZGdUZ1hnRGJwakltZkF6QUtRWnJHNkxQNExvRGtHRVFKSUVVai9PdXNxMThGb2dTb1paR2RId1hRMkFWU29nUW9wL1YraU91TXErNEFsQUExTE44TTlLc0EwcGRFS1FGS2FJWi9LOXNtZDRJcEFYTDBlQnZvN21wLzkzajdxZkVGZWE4cnJsbGtZbSt5TVg4V2lOMEFhNzBYeE1ONVgyc1hTR2s3L093SU1WaS85a2ZudGFjbnZKb2xTSWtpUk5ManRUNjdxTk85QUl1YUh5WUwzenk4cHMwRlNNbXVCQXZPRGVaa3ZaRGxYTkxQdnVadlhZSTFDakdtbmp0Mzd2MnNvcHRlUFVzQTVDcTVtVnQwR1pTZklBSHZTak5hZkIrQUVzQ3JtbXhXM1FpakJQQ21OcFBWZDRJcEFieG95V0xUb3hDVUFMMjFackQ1V1NCS2dGNGtzaWNhWGk2VHdvTGtvaXY2TkNpN0FiUkpaMHd0c093R2tLUzF1S3F2MkJRQkxiU25Dck9SaFNLZ2hOVTRiVDZ6VXdRY3NUNlA3SHJTU2htUVV0K0xKKzZ1MmxDS3VYbTdVdmdYQVpZSWp2bWJ4cTRBQUFBQVNVVk9SSzVDWUlJPSIsICJzaXplcyI6ICIxOTJ4MTkyIiwgInR5cGUiOiAiaW1hZ2UvcG5nIn0sIHsic3JjIjogImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxpVkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBZ0FBQUFJQUNBWUFBQUQwZU5UNkFBQVY2VWxFUVZSNG5PM2RQYkliUjdLQTBaSkNDOU1PNURDQ25td3VpZlo0aktBek81aWQ2Umw4RUVFU1AvMVQxVldaZVU2RW5CZHZTS0NCMi9sMU5uRDVXMk5KZi8zOTV6K3pId05BRC8vOXovOSttLzBZK0pVWFpSSURIdUFiZ1RDSGczNEJ3eDVnSDFFd25nTThnSUVQMEpjZzZNOEI3Y0RBQjdpV0lEalBBVHpJMEFkWWd4ZzR4a0hid2RBSFdKc1kyTTZCZXNQUUI0aEpETHptNER4aDhBUGtJQVFlYzFEdUdQb0F1WW1CN3h5SVp2QURWQ01FaWdlQXdROVFXK1VRS1BuRURYNEE3bFVNZ1ZKUDJPQUg0SlZLSVZEaWlScjhBT3hSSVFSK24vMEFSalA4QWRpcnd1eElXemdWWGp3QXhzdTZEVWozcEF4K0FFYklGZ0twYmdFWS9nQ01rbTNHcEtpWmJDOEtBR3ZMc0EwSXZ3RXcvQUc0V29iWkV6b0FNcndBQU1RVWZRYUZYR0ZFUCtnQTVCTHhsa0M0RFlEaEQ4QnFJczZtVUFFUThRQURVRU8wR1JWaVpSSHRvQUpRVzRSYkFzdHZBQXgvQUtLSk1MdVdEb0FJQnhBQUhsbDloaTBiQUtzZk9BQjRaK1ZadG1RQXJIekFBR0NQVldmYWNnR3c2b0VDZ0tOV25HMUxCY0NLQndnQWVsaHR4aTBUQUtzZEdBRG9iYVZadDBRQXJIUkFBR0NrVldiZTlBQlk1VUFBd0ZWV21IMVRBMkNGQXdBQU04eWVnZE1DWVBZVEI0RFpaczdDS1FGZytBUEFON05tNHVVQllQZ0R3STltek1aTEE4RHdCNERIcnA2UmwvMXpoWWIvZUY4L2Y1bjlFSURrUG56Nk9Qc2hwSGZWUHlWOHlWOWkrUGRsMEFPckVRWjlYUkVCZjR6K0N6akhzQWNpZUhTdUVnVnJHMTRZcnY3M00vU0JiTVRBZnFPM0FFUC9jTU4vR3dNZnFFWVFiRE15QW9iOXdZYi9ld1kvVUowUWVHOVVCUGdNd01WR0QzMC9UTUFvSTg1ZjkzK204OWUxaGxTRnEvOWY5ZnpCOFVNQ3JNWTVicXdSVzREdWY2RGgvNk1lUHhSK0dJQm9uUHY2NngwQlhmOHd3Lys3TTI5K2Izb2dHK2ZFUG5wR2dBRG83T2liM0JzY3FNSjU4cmdsQTZENjhQZUdCdGpIZWZPWVhoSFE1UStwUFB5UHZJR3J2M2tCZnVaY3VrK1BDQkFBSit4OXcxWitzd0pzNGJ5NnpSSUJVSEg0ZTRNQ2pPVTgrOTdaQ0JBQU8rMTVVMVo4UXdMMDVKejczTlFBTVB3ZnEvWW1CQmpOK2ZleE14RncrSDlZYWZoNzR3R3N3Zm40VjBjajRQZmVEeVFiYnphQWRXdzkxL3JIMXQ0N1ZBMVZydjYzdklFTWZvQTVuS08vTzdJRnNBRjR3aHNMWUcxYnpzRTJBYy90TG9ic1YvOVcvZ0N4T0c5L3MzY0xJQUR1dU9vSGlLdjZPWHh2QU95NkJXRDQ1MzNqQUVSWC9aYkEzaG50TXdETjhBZklvbm9FN0xFNUFMSmUvUnYrQUxsVWpvQTlzM3J6L1lLTUFmRHVEV0R3QThSVzhUeS85Yk1BbXpZQWhqOEFFYjA3bDJmY0JHeWQyU1UvQTJENEE5UlJNUUsyS0JrQXJ4aitBUGs0dC8vcWJRQmtXLysvS2oxdkVJQzhYcDNqczIwQnRzenVVaHNBd3grZ3Rrb1I4TTdMQU1oMDlWL3RoUVZndjB5ejR0ME1MN0VCOEtFL0FHNThLUENiRWdId2l1RVBVSTl6LzRzQXlMTCtkOThmZ0VjcWZCN2cxU3hQdlFFdy9BRjRwVUlFUEpNMkFMSy9jQUNNbDNtV1BBeUFMT3YvWjF6OUEzQ1RmU1k4bStrcE53Qlcvd0RzVWZGV1FMb0FNUHdCT0tKYUJQd1NBTm5YL3dCUXphUFpubW9ENE9vZmdETXFiUUZTQmNBemhqOEFXMVdaR1drQ0lGdVpBYkNlVExQbWh3REllUCsvU3NrQjBFL0cyZkh6akUreEFjaFVaQUNzTGN2TVNSRUF6MlFzT0FDdWtYMkdoQStBTENVR1FCd1pacysvQVpEdC9uLzJjZ05ndkd5ejVIN1doOTRBWkNnd0FHS0tQb05DQjhBejJZb05nSG15enBTd0FSQzl2QUNJTC9Jc0Noc0F6MlF0TlFEbXlUaGJmbTh0M3djQUFZREhiak0vNUFZZzhzb0ZnRnlpenFTUUFmQk14aFVOQUd2SU5tUENCVURVMGdKaWNzNWhpNGp2azNBQjhFeTJNZ1BXOGZYemwzLy9vN1pNcythUDJROEFZRldQQnY3OS95M1RNS0NlTkJzQWdLdlpDaEJacUFCNDlvT213b0daM0NLbzVkbk1pZmI2Lys1M0FNQmowWDZZV1lNWUlJSy8vdjd6SDU4QmdEdE8ydHowZUMvNHZBQXJDM01Md0ltWlVWNWRzWG5mQVh0RU9tZUUzd0NvYW82STlFTktmTTVUK1h6NDlESDhlU1RNQmdEZ0t0RlA3TENGQUtDa1BWZGtoZ0dRa1FBQUdNajZuMVdGQ0FEZi93ZGdOZEYvSDBDSUFJQlhqdjZ3dVEzQUl6MWZheGNwckN6OHR3Q295VUFHT01jR2dEQm1mMTlmZEFDWjJBQ3d0TkZETjhOM2VlbkgrcDlLYkFBQW9LRGxBOERWV1cxWGZGRFBod0dCM2lLY0s1WVBnR2VzMTRDZXJQODVJdkpySFRZQTRKRUkxUTJ3QWdIQXBZNE02Q3NLMjIwQWVvbDhSVWd0dmdYQWNBWW13SHBzQUJpaTkzZjJYYUV6a3ZjTUZRa0F1bmsxOUNNUUdaeGwvVThrQWdBQUNoSUFkRFA2Q3RvVk9pTjRyMUNWQUlBN0lvT2pyUCtKUmdBd3plZ0Jha0FEUENjQTZHcjBWWkNyTElBK0JBRDh4RzJBT25xOWZzS1VpQVFBM2Zrd0lNRDZCQUNjSkRKcWMvVlBWQUlBSG5CU3owKzRVWjBBWUFpM0FRRFdKZ0RnQ1pIQk96WkZSQ1lBQUtBZ0FjQXdiZ093S3U4SEVBRHdrc2pnR2V0L29oTUFsR0ZBQTN3bkFCaHFwZHNBMEZxZkVQUytJd01CQUcrNERRQmtKQUJZaWc4REFseERBRENjZFNtWmVEK1RoUUNBRFd3WmN2RGF3SGNDZ0V1czlHRkFRd0JBQUFCc1p2MVBKZ0lBTnJKbGlNMXJBajhTQUZ6R2JRQ0FkUWdBR0VSazVHTDlUellDZ0ZSVzJqS3dEakVHdnhJQVhNcWFub2lFSHhrSkFOaEp4QUFaQ0FEU01hQUIzaE1BWE02QTVrcG4zMFBXLzJRbEFPQUFFUU5FSndCWW50OEpBTkNmQUdBS2ExV3VZUDBQendrQWFMWU1RRDBDZ0duODBoNVc1djFEZGdJQUFBb1NBS1MyMHBiQmJZQnJPZDd3bWdCZ3FzZ0Q5T3ZuTDhzOUp2cXcvcWVDUDJZL0FJakV3QWV5c0FFZ3ZiTmJodHVWZm8vaEx5Q3U0VGpEZXdLQTZWYThEZEJ6NkJPTDlUOVZDQUQ0eWVpaEx5cUFGUWdBU25CVkIvQWpBY0FTVnJ3TlFFeG4zaDlDa1VvRUFFd2dZb0RaZkEyUWtMNSsvckxwYXMyZ1pTdFgvMVJqQThBeWVwMkFaMzJDM3dDWlQvREJkallBcEREcnhQL3owUC93NmVQbXg3SjFpd0V3Z2dCZ0tYc0g2QXlHZGo1ZVV5b1NBTEJCendGaDJBQXJFQUR3eHQ2Qi9XaUxZZWlQNS80LzdDTUFXTTZlMndBck0vUmo4RHBSbFc4QndCdEhZc1JRQVZZbkFJRHdqbTZNaEJxVkNRQ1dOT3JFL09IVHgzLy9BNmhNQUpEZXM2SHYzeDhBS3ZNaFFGSnloVitIOVQ4Y0l3QlkxdDV2QTR3NG9Sc1NRRllDZ05KOFp4K29TZ0NReHBuZnJXL28xK0wxQmg4Q1pIRlhuS2dOZzdoOE9CT09Fd0J3Z01FRFJDY0FXTjRxWDlmNyt2bkx2LzhSbDQwUGZPTXpBUERFdTBGLzVqTUhuQ2ZFNEJ3QlFBcTlCckdoa3B0Z2crOEVBQ0dNK3JxZWdROVVKUUFJWmJVck9MY0JnS2g4Q0pBdy9LWS9idndUelhDZUFJQ1QzRVlBSWhJQUFGQ1FBS0E4cStGWXJQK2hEd0VBSGJnTkFFUWpBS0M1UWdUcUVRQkFhdUlPSGhNQTBJbmJBT001eHRDUEFJRC81MG94SDY4cFBDY0FBS0FnQVFBZFdWR1A0OWhDWHdJQTdsZ1o1K0cxaE5jRUFIVG1TaFdJUUFBQXl4TlYwSjhBZ0o5WUhjZm5OWVQzQkFBTTRJb1ZXSjBBZ0FkY1FjYmx0WU50QkFDd05Oc1VHRU1Bd0NBR0Y3QXlBUUJQV0NYSDR6V0Q3UVFBc0N4YkZCaEhBTUJBQmhpd0tnRUFMMWdweCtHMWduMEVBQXhtQ3dDc1NBQUFTeEpPTUpZQWdEZXNsdGZuTllMOUJBQmN3TlVzc0JvQkFCdTR3cnpXbm1EeTJzQXhBZ0FBQ2hJQWNCRzNBWUNWQ0FEWXlLcDVQVjRUT0U0QUFFdXhLWUZyQ0FDNGtPRUdyRUlBd0E1V3p1dndXc0E1QWdBdVpndnduR01EMXhFQVFEaXUvdUU4QVFBN0dUNUFCZ0lBSnJEcUJtWVRBSENBTFVCL1c2UElzWWMrQkFBQUZDUUFZQkszQVlDWkJBQWNaQlhkai9VL1hFOEFBRUJCQWdBbWNoc0FtRVVBd0FsVzB1ZFovOE1jQWdBbXN3VUFaaEFBd1BKYy9VTi9BZ0JPTXB5QWlBUUFMS0RxYllDcXp4dFdJQUNnQTF1QWNSeGJHRU1BQUVCQkFnQVdVVzBkWHUzNXdtb0VBSFJpVmQyZll3cmpDQUFBS0VnQXdFSXlyOFgzUGpkWC96RFdIN01mQUdUeTRkUEgxRVA4TE1jRzFtRURBQXhuOE1ONkJBQXN4ckMwL29jckNBRG96UEE2Nyt2bkwwSUlCaE1Bc0tCTXcrL01jN21GUUtiakFhc1FBQUJRa0FDQUFkd0crS2JYbGJ2akNmMEpBRmlVdFRjd2tnQ0FRVnkxQWlzVEFNQVExdit3TmdFQUMzTWJBQmhGQU1CQXJsN1BjZnhnSEFFQWRHZHpBZXNUQUxBNHd4UVlRUURBWU5iWXh6aHVNSllBZ0FBaWJRRWlQVmFvVEFBQVFFRUNBQzVRWlozdHUvOFFod0NBSUt6V2daNEVBRnpFVlMyd0VnRUFkR0g5RDdFSUFBakViUUNnRndFQUYzSjErNXJqQTljUkFNQnBOaE1RandDQVlBeGJvQWNCQUJlejVuN01jWUZyQ1FBSWFLVXR3RXFQQmRoT0FBQkFRUUlBSnNpeTd2YmRmNGhMQUVCUVZ1L0FHUUlBSm5IVkM4d2tBSUJEclA4aE5nRUFnYmtOQUJ3bEFHQ2k2bGUvMVo4L3pDUUFnTjFzSGlBK0FRREJHY2JBRVFJQUpxdTZCcS82dkdFVkFnQVN1SElMWU9NQU9RZ0FBQ2hJQU1BQ29xekRmZmNmOGhBQWtJVFZQTENIQUlCRnVDb0dyaVFBZ0Uycy95RVhBUUNKdUEwQWJDVUFZQ0hacjQ2elB6K0lSQUFBYjlrc1FENENBSkl4cklFdEJBQXNKdXVhUE92emdxZ0VBQ1RVY3d0Z293QTVDUUFBS0VnQXdJSldXWmY3N2ova0pRQWdLYXQ3NEJVQkFJdHkxUXlNSkFDQWg2ei9JVGNCQUltNURRQThJd0JnWWRHdm5xTS9mc2hNQUFDL3NEbUEvQVFBSkdlWUE0OElBRmhjMURWNjFNY05WUWdBS0dEUEZzREdBR29RQUFCUWtBQ0FBSzVhcC92dVA5UWhBS0FJcTMzZ25nQ0FJRnhWQXowSkFLQzFadjBQMVFnQUtNUnRBT0JHQUVBZ3ExOWRyLzc0Z084RUFHQXpBQVVKQUNqR3NBZGFFd0FRenFwcjlsVWZGL0NZQUlDQzdyY0FOZ0pRa3dBQWdJSUVBQVRVYTkzdXUvOVFsd0NBb3F6K29UWUJBRUc1NmdiT0VBREFLVUlFWWhJQUFGQ1FBSURBWmw5OXovNzdnZU1FQUFBVUpBQUFvQ0FCQU1ITldzTmIvME5zQWdBQUNoSUFBRkNRQUlBRXJsN0hXLzlEZkFJQUFBb1NBSkNFcTNKZ0R3RUE3Q0kwSUFjQkFBQUZDUUJJWlBUVnVhdC95RU1BQUVCQkFnQUFDaElBa015b05iMzFQK1FpQUFDZ0lBRUFBQVVKQUVpbzk3cmUraC95RVFBQVVKQUFnS1JjdFFPdkNBQkk2dXZuTDEzK0hDRUJPUWtBQUNoSUFBQkFRUUlBRXVxMS9nZnlFZ0RBUzJJQ2NoSUFBRkNRQUlCa1hMRURXd2dBNEMxUkFma0lBRWpFb0FhMkVnREFKdUlDY2hFQUFGQ1FBSUFrWEtFRGV3Z0FZRE9SQVhrSUFBQW9TQUJBQXE3TWdiMEVBTENMMklBY0JBQUFGQ1FBSURoWDVNQVJBZ0RZVFhSQWZBSUFBak9JZ2FNRUFIQ0krSURZQkFBQUZDUUFJQ2hYNE1BWkFnQTRUSVJBWEFJQUN2dnc2ZVBzaHdCTUlnQWdJRmZld0ZrQ0FEaEZqRUJNQWdDS3VxMy8zUWFBbWdRQUJPT0tHK2hCQUFDbmlSS0lSd0JBSUwwRzdjOXJmN2NCb0I0QkFIUmhDd0N4Q0FBQUtFZ0FRQkNqMXYvdi91OUFUZ0lBNk1adEFJaERBRUFoNzY3eWJRR2dEZ0VBQWJpeUJub1RBRUJYWWdWaUVBQlF4TmIxdnRzQVVJTUFnTVc1b2daR0VBQkFkNklGMWljQVlHR2p2L3ZmNi84ZmlFY0FBRVBZQXNEYUJBQUFGQ1FBWUZHejF2OW4vM2RBREFJQUdNWnRBRmlYQUlERXpsN0Yyd0pBWGdJQUZ1VEtHUmhOQUFCRGlSbFlrd0NBcEhxdDc5MEdnSndFQUN6R0ZUTndCUUVBRENkcVlEMENBQll5Kzd2L1YvMTV3SHdDQUxpRUxRQ3NSUUFBUUVGaEE4RFZCTm1zdXY0Zi9lZENaSkZuMGZJQjRLUURlVVErV2NJZUVXYlg4Z0VBVlh6NDlQSGYvODc4R1NORk9La0IyL3d4K3dFQXY3b2Z0Tkd2bWtVRHJFa0F3T0lpeG9DaEQrc1RBQkRJcXhpNGF1aCsrUFJ4MnQ4TjlDTUFJS2pabXdGREgyTDc3YSsvLy94bjlvUFk0dGtKemtrSWdCbWl6eVhmQWdDQWdnUUFBQlFrQUFDZ29QQUJFT1ZyVVFEa2tXSDJoQW1BS0IrcUFLQ3VTTE1xVEFBQUFQMzgvdC8vL08rMzJROENBTGpPZi8venY5OUNiUUNlclZZeTNJc0JJSWJvMy8rL0NSVUFBRUFmQWdBQUNrb1RBRzREQURCYXBsa1RMZ0NpM1dNQklMK0lzeWxjQUx5U3Fjd0FXRXUyR1JNeUFDS1dGZ0E1UloxSnY3ZjI3ZnVBc3g4SUFERGViZWFIM0FDOGttMUZBOEI4R1dkTDJBQ0l1bklCSUkvSXN5aHNBTHlTc2RRQW1DUHJUQWtkQUpITEM0RFlvcytnZndNZzJ3Y0JzeFliQU5mSk5rdnVaMzNvRFVCcjhRc01nSGd5eko3d0FmQkt0bklENERyWlowaUtBTWhRWWdERWtHWG0vQkFBMlQ0SDBGcitnZ09ndjR5ejQrY1puMklEMEZxZUlnTmdYWmxtVFpvQWVDVmp5UUV3UnBXWmtTb0FYcFZabFJjVWdPTmV6WXBNVi8rdFBRaUFqSjhEQUlES0hzMzJWQnVBMW13QkFEaW0wdFYvYXdrRG9EVVJBTUErMVlaL2EwOENJUHR0QUJFQXdFMzJtZkJzcHFmY0FMU1d0OWdBdUU3bVdaSTJBRnB6S3dDQTF5cXUvbStlQmtDVzJ3QWlBSUJIS2d6L1Y3TTg5UVpnQ3hFQVVJOXpmNUVBZUZkeTNnZ0FkYnc3NTJlNStuL25aUUJrdVEzUVdwMFhGSURqTXMyS2R6Tzh4QWJneHVjQkFHcXJjTjkvcTdjQmtHa0wwSm9JQUtpcTB2RGZNcnRMYlFDMkVBRUErVGkzLzZwa0FQaFFJRUFkUHZUMzJLWUF5SFlib0RVUkFGQkJ4ZUcvZFdadkh1eC8vZjNuUDhjZnpycTJEUHFNYnhDQXpDcWYyN2NHd09aYkFCbTNBSzF0ZXdQWUJnREVZZmh2VS9JekFEOFRBUUE1VkI3K2UrMEtnS3hiZ05aRUFFQjAxWWYvM2htOWU2Qm4vU3pBemRZaG4vbE5CQkNKOC9ZM3d3T2d0ZndSMEpxU0JJakF1ZnFiSXh0Nm53RjR3aTBCZ0xVWi91Y2N2cWRmWVF2UW10VVN3R3FjbDM5MDlQTjVOZ0J2YkgwRDJRWUFqR2Y0OTNQcVUvMVZ0Z0EzM25nQWN6ai9QbmJtMjNtbnY5WW5BcDZyOWtZRTZNMDU5N216WDgwWEFBZnNYZmRYZTFNQ25PVTgrOTcwQUdpdFpnUzA1ZzBLMEp2ejZqWTlmakdmQURqcHlJZi9xcjVoQVo1eEx0MW5tUUJvclhZRXRIYjhXd0NWMzhCQWJjNmJ4L1Q2dGZ4ZGY3ZC85UWhvelJzYTRCM255ZU42L3BzOEFtQ1FNNzhYd0pzY3lNWTVzWTlsQTZBMUVmQ3pIcjhneUpzZmlNYTVyNy9lL3lMdmtIL2VWd1Q4cXVkdkN2UkRBYXpHT1c2czNzTy90VUVCMEpvSWVHYjByd3oyZ3dPTTR2dzF4NGpoMzVvQW1NcS9Id0JVWitpL0Z5NEFXaE1CV3drQm9CcURmNXRSdzcrMXdRSFFtZ2c0UWhBQTJSajQrNDBjL3ExZEVBQ3RpWUF6eEFBUWxhRi8zT2poMzFwcmY0eitDempuMFErUUtBQldZOWpIYzhrR29EVmJnQ3NJQTJBMGczNjhLNjcrVzdzd0FGb1RBUUR3eWxYRHY3WFdmci9xTDJydDJpY0dBSkZjUFNNdkRZRFdSQUFBL0d6R2JMdzhBRm9UQVFCd00yc21UZ21BMWtRQUFNeWNoZE1Db0RVUkFFQmRzMmZnMUFCb2JmNEJBSUNyclREN3BnZEFhMnNjQ0FDNHdpb3piNGtBYUcyZEF3SUFvNncwNjVZSmdOYldPakFBME5OcU0yNnBBR2h0dlFNRUFHZXRPTnVXQzREVzFqeFFBSERFcWpOdHlRQm9iZDBEQmdCYnJUekxsZzJBMXRZK2NBRHd5dW96Yk9rQWFHMzlBd2dBUDRzd3U1Wi9nUGY4YzhJQXJDekM0TDlaZmdOd0w5S0JCYUNXYURNcVZBQzBGdThBQTVCZnhOa1U3Z0hmYzBzQWdKa2lEdjZiY0J1QWU1RVBQQUN4Ulo5Qm9RT2d0Zmd2QUFEeFpKZzk0Wi9BUGJjRUFCZ3B3K0MvQ2I4QnVKZnBoUUZnTGRsbVRLb25jODgyQUlBZXNnMyttNVJQNnA0UUFPQ0lySVAvSnRVdGdFZXl2NEFBOUZkaGRxUi9ndmRzQXdCNHBjTGd2eW56Uk84SkFRRHVWUnI4TitXZThEMGhBRkJieGNGL1UvYUozeE1DQUxWVUh2dzM1US9BUFNFQWtKdkIvNTBEOFlRWUFNakIwSC9NUVhsRENBREVaUEMvNXVEc0lBWUExbWJvYitkQUhTUUdBTlpnNkIvam9IVWdCZ0N1WmVpZjV3QU9JQWdBK2pMdyszTkFMeUFJQVBZeDhNZHpnQ2NSQlFEZkdQWnpPT2lMRWdoQUZnYjhtdjRQRXAzNFpMeExrd0VBQUFBQVNVVk9SSzVDWUlJPSIsICJzaXplcyI6ICI1MTJ4NTEyIiwgInR5cGUiOiAiaW1hZ2UvcG5nIn1dfQ==">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Good Eats">
+<meta name="theme-color" content="#4F5E40">
+<style>
+  :root{
+    --bg:#E3D5B4;
+    --bg-deep:#D8C79E;
+    --surface:#FBF6E9;
+    --surface-2:#F3EBD8;
+    --ink:#37301F;
+    --ink-soft:#6B6148;
+    --sage:#6E7F5C;
+    --sage-dark:#4F5E40;
+    --clay:#B98551;
+    --clay-soft:#E4CDA4;
+    --line:#D9C7A0;
+    --error:#A0503B;
+    --radius-lg:22px;
+    --radius-sm:12px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    font-family:'Public Sans', sans-serif;
+    color:var(--ink);
+    background:
+      radial-gradient(circle at 15% 8%, rgba(255,255,255,0.25), transparent 45%),
+      linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding:32px 16px 60px;
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+  .app{
+    width:100%;
+    max-width:440px;
+    background:var(--surface);
+    border-radius:var(--radius-lg);
+    border:1px solid var(--line);
+    box-shadow:0 1px 0 rgba(255,255,255,0.6) inset, 0 18px 40px -28px rgba(55,48,31,0.55);
+    overflow:hidden;
+  }
+  .topbar{
+    padding:26px 26px 14px;
+    border-bottom:1px solid var(--line);
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+  }
+  .brand{
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:-0.01em;
+    color:var(--ink);
+    font-family:Georgia, serif;
+  }
+  .brand em{ font-style:italic; color:var(--sage-dark); }
+  .home-btn{
+    font-size:12px;
+    color:var(--ink-soft);
+    border:1px solid var(--line);
+    border-radius:999px;
+    padding:6px 12px;
+    cursor:pointer;
+    background:var(--surface-2);
+  }
+  .screen{ padding:24px 26px 28px; display:none; }
+  .screen.active{ display:block; }
+
+  h2.title{ font-size:20px; font-weight:700; margin:0 0 4px; font-family:Georgia, serif; }
+  p.hint{ font-size:13.5px; color:var(--ink-soft); margin:0 0 18px; line-height:1.5; }
+
+  .toggle-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:var(--surface-2);
+    border:1px solid var(--line);
+    border-radius:var(--radius-sm);
+    padding:12px 14px;
+    margin-bottom:20px;
+    font-size:13.5px;
+  }
+  .switch{
+    width:42px; height:24px;
+    background:var(--line);
+    border-radius:999px;
+    position:relative;
+    cursor:pointer;
+    transition:background 0.15s;
+    flex-shrink:0;
+  }
+  .switch.on{ background:var(--sage); }
+  .switch::after{
+    content:'';
+    position:absolute;
+    top:2px; left:2px;
+    width:20px; height:20px;
+    background:#fff;
+    border-radius:50%;
+    transition:transform 0.15s;
+  }
+  .switch.on::after{ transform:translateX(18px); }
+
+  .fork-grid{ display:flex; flex-direction:column; gap:12px; margin-bottom:16px; }
+  .fork-card{
+    border:1px solid var(--line);
+    background:var(--surface-2);
+    border-radius:18px 6px 18px 6px;
+    padding:18px;
+    text-align:left;
+    cursor:pointer;
+    font-family:'Public Sans', sans-serif;
+  }
+  .fork-card:hover{ border-color:var(--sage); }
+  .fork-card .fc-title{ font-size:16px; font-weight:700; margin-bottom:3px; }
+  .fork-card .fc-sub{ font-size:12.5px; color:var(--ink-soft); }
+
+  .quicklinks{
+    display:flex;
+    gap:10px;
+    margin-top:6px;
+  }
+  .quicklink{
+    flex:1;
+    text-align:center;
+    font-size:12px;
+    color:var(--sage-dark);
+    font-weight:600;
+    cursor:pointer;
+    border:1px solid var(--line);
+    border-radius:var(--radius-sm);
+    padding:10px 6px;
+    background:var(--surface);
+  }
+
+  .cuisine-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+    margin-bottom:20px;
+  }
+  .cuisine-card{
+    border:1px solid var(--line);
+    background:var(--surface-2);
+    border-radius:var(--radius-sm);
+    padding:16px 12px;
+    text-align:center;
+    cursor:pointer;
+    font-size:14.5px;
+    font-weight:700;
+  }
+  .cuisine-card:hover{ border-color:var(--sage); }
+
+  .dish-list{ display:flex; flex-direction:column; gap:10px; margin-bottom:18px; }
+  .dish-card{
+    border:1px solid var(--line);
+    background:var(--surface-2);
+    border-radius:var(--radius-sm);
+    padding:14px 16px;
+    cursor:pointer;
+  }
+  .dish-card:hover{ border-color:var(--sage); }
+  .dish-name{ font-size:15.5px; font-weight:700; }
+  .dish-meta{ font-size:12px; color:var(--ink-soft); margin-top:3px; display:flex; gap:8px; align-items:center; }
+  .badge{
+    display:inline-block;
+    font-size:10.5px;
+    font-weight:700;
+    padding:2px 8px;
+    border-radius:999px;
+    background:var(--sage);
+    color:#fff;
+  }
+  .badge.slow{ background:var(--clay); }
+  .badge.homemade{ background:var(--ink-soft); }
+
+  .ing-list{ display:flex; flex-direction:column; gap:8px; margin-bottom:16px; }
+  .ing-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border:1px solid var(--line);
+    border-radius:var(--radius-sm);
+    padding:10px 14px;
+    font-size:14px;
+  }
+  .ing-name{ flex:1; }
+  .ing-toggle{ display:flex; gap:6px; }
+  .ing-btn{
+    border:1px solid var(--line);
+    background:var(--surface);
+    border-radius:8px;
+    padding:5px 10px;
+    font-size:12px;
+    cursor:pointer;
+    font-weight:600;
+    color:var(--ink-soft);
+  }
+  .ing-btn.yes.sel{ background:var(--sage); border-color:var(--sage-dark); color:#fff; }
+  .ing-btn.no.sel{ background:var(--error); border-color:var(--error); color:#fff; }
+  .sub-note{
+    font-size:12px;
+    color:var(--clay);
+    margin-top:4px;
+    padding-left:2px;
+  }
+
+  button.primary{
+    width:100%;
+    background:var(--sage-dark);
+    color:#fff;
+    border:none;
+    padding:14px 18px;
+    border-radius:var(--radius-sm);
+    font-family:'Public Sans', sans-serif;
+    font-size:15px;
+    font-weight:700;
+    cursor:pointer;
+  }
+  button.primary:hover{ background:#3f4b34; }
+  button.secondary{
+    width:100%;
+    background:transparent;
+    color:var(--ink-soft);
+    border:1px solid var(--line);
+    padding:12px 18px;
+    border-radius:var(--radius-sm);
+    font-size:14px;
+    font-weight:700;
+    cursor:pointer;
+    margin-top:10px;
+  }
+  button.secondary:hover{ border-color:var(--sage); }
+
+  .step-box{
+    background:var(--surface-2);
+    border-left:3px solid var(--sage);
+    border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+    padding:18px 16px;
+    margin-bottom:18px;
+    min-height:90px;
+    font-size:15.5px;
+    line-height:1.55;
+    animation:reveal 0.4s ease;
+  }
+  @keyframes reveal{ from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:translateY(0);} }
+  .step-progress{
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-bottom:8px;
+    text-align:center;
+  }
+  .step-nav{ display:flex; gap:10px; }
+  .step-nav button{ flex:1; }
+
+  .health-box{
+    background:var(--clay-soft);
+    border-radius:var(--radius-sm);
+    padding:16px;
+    font-size:14.5px;
+    line-height:1.55;
+    margin-bottom:18px;
+  }
+
+  .textarea, .textinput{
+    width:100%;
+    border:1px solid var(--line);
+    border-radius:var(--radius-sm);
+    padding:10px 12px;
+    font-family:'Public Sans', sans-serif;
+    font-size:14px;
+    background:var(--surface);
+    margin-bottom:12px;
+  }
+  .textarea{ min-height:80px; resize:vertical; }
+  label.field-label{ font-size:12.5px; font-weight:700; color:var(--ink-soft); display:block; margin-bottom:5px; }
+
+  .rescue-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:18px; }
+  .rescue-card{
+    border:1px solid var(--line);
+    background:var(--surface-2);
+    border-radius:var(--radius-sm);
+    padding:14px 10px;
+    text-align:center;
+    font-size:13.5px;
+    font-weight:700;
+    cursor:pointer;
+  }
+  .rescue-card:hover{ border-color:var(--sage); }
+
+  .done-wrap{ text-align:center; padding:16px 10px 6px; }
+  .done-mark{ font-size:22px; font-weight:700; margin-bottom:6px; font-family:Georgia, serif; }
+  .done-sub{ font-size:13.5px; color:var(--ink-soft); margin-bottom:20px; }
+
+  .footer-link{
+    text-align:center;
+    margin-top:16px;
+    font-size:12px;
+    color:var(--ink-soft);
+    cursor:pointer;
+    text-decoration:underline;
+  }
+  .saved-list{ display:flex; flex-direction:column; gap:8px; margin-bottom:16px; max-height:320px; overflow-y:auto; }
+  .empty-note{ font-size:13px; color:var(--ink-soft); text-align:center; padding:20px 0; }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <div class="topbar">
+    <div class="brand">Good <em>Eats</em></div>
+    <div class="home-btn" id="btn-home">Home</div>
+  </div>
+
+  <!-- HOME -->
+  <div class="screen active" id="screen-home">
+    <h2 class="title">What's the plan?</h2>
+    <p class="hint">One decision at a time — no browsing required.</p>
+
+    <div class="toggle-row">
+      <span>Got more time today?</span>
+      <div class="switch" id="time-switch"></div>
+    </div>
+
+    <div class="fork-grid">
+      <div class="fork-card" id="btn-craving">
+        <div class="fc-title">I know what I want</div>
+        <div class="fc-sub">Pick a cuisine, confirm ingredients, cook</div>
+      </div>
+      <div class="fork-card" id="btn-rescue">
+        <div class="fc-title">Just work with what's frozen</div>
+        <div class="fc-sub">Too tired to think — give me a fast fix</div>
+      </div>
+    </div>
+
+    <div class="quicklinks">
+      <div class="quicklink" id="btn-saved">Saved & homemade</div>
+      <div class="quicklink" id="btn-addrecipe">+ Add a recipe</div>
+    </div>
+  </div>
+
+  <!-- CUISINE PICKER -->
+  <div class="screen" id="screen-cuisine">
+    <h2 class="title">What sounds good?</h2>
+    <p class="hint">Pick a cuisine, or let it surprise you.</p>
+    <div class="cuisine-grid" id="cuisine-grid"></div>
+    <button class="secondary" id="btn-back-home1">Back</button>
+  </div>
+
+  <!-- DISH PICKER -->
+  <div class="screen" id="screen-dish">
+    <h2 class="title" id="dish-cuisine-title">Today's picks</h2>
+    <p class="hint">Sorted for the time you've got.</p>
+    <div class="dish-list" id="dish-list"></div>
+    <button class="secondary" id="btn-back-cuisine">Back</button>
+  </div>
+
+  <!-- INGREDIENT CONFIRM -->
+  <div class="screen" id="screen-ingredients">
+    <h2 class="title" id="ing-dish-name">Have these?</h2>
+    <p class="hint">Just tap yes or no — no need to plan ahead.</p>
+    <div class="ing-list" id="ing-list"></div>
+    <button class="primary" id="btn-to-steps">Start cooking</button>
+    <button class="secondary" id="btn-back-dish">Back</button>
+  </div>
+
+  <!-- STEPS -->
+  <div class="screen" id="screen-steps">
+    <h2 class="title" id="steps-dish-name">Let's cook</h2>
+    <div class="step-progress" id="step-progress">Step 1</div>
+    <div class="step-box" id="step-text"></div>
+    <div class="step-nav">
+      <button class="secondary" id="btn-prev-step">Back</button>
+      <button class="primary" id="btn-next-step">Next</button>
+    </div>
+  </div>
+
+  <!-- HEALTH -->
+  <div class="screen" id="screen-health">
+    <h2 class="title">How it stacks up</h2>
+    <div class="health-box" id="health-text"></div>
+    <button class="primary" id="btn-to-save">Save this one</button>
+    <button class="secondary" id="btn-skip-save">Skip — just done</button>
+  </div>
+
+  <!-- RESCUE -->
+  <div class="screen" id="screen-rescue">
+    <h2 class="title">What's frozen?</h2>
+    <p class="hint">Pick what you've got — we'll make it taste like you meant it.</p>
+    <div class="rescue-grid" id="rescue-grid"></div>
+    <button class="secondary" id="btn-back-home2">Back</button>
+  </div>
+
+  <div class="screen" id="screen-rescue-plan">
+    <h2 class="title" id="rescue-item-name">Quick fix</h2>
+    <div class="health-box" id="rescue-steps"></div>
+    <button class="primary" id="btn-rescue-done">Done — back home</button>
+  </div>
+
+  <!-- ADD RECIPE -->
+  <div class="screen" id="screen-add">
+    <h2 class="title">Teach it a recipe</h2>
+    <p class="hint">Yours, hers, or a family one — saved for good.</p>
+    <label class="field-label">Dish name</label>
+    <input type="text" class="textinput" id="add-name" placeholder="e.g. Mom's egusi soup">
+    <label class="field-label">Cuisine tag</label>
+    <input type="text" class="textinput" id="add-cuisine" placeholder="e.g. Nigerian">
+    <label class="field-label">Ingredients (one per line)</label>
+    <textarea class="textarea" id="add-ingredients" placeholder="egusi seeds&#10;spinach&#10;palm oil"></textarea>
+    <label class="field-label">Steps (one per line)</label>
+    <textarea class="textarea" id="add-steps" placeholder="Blend the egusi...&#10;Fry in palm oil...&#10;Add spinach and simmer..."></textarea>
+    <label class="field-label">Roughly how long? (minutes)</label>
+    <input type="text" class="textinput" id="add-time" placeholder="45">
+    <label class="field-label">Any health note? (optional)</label>
+    <input type="text" class="textinput" id="add-health" placeholder="e.g. rich but full of greens">
+    <button class="primary" id="btn-save-recipe">Save recipe</button>
+    <button class="secondary" id="btn-back-home3">Cancel</button>
+  </div>
+
+  <!-- SAVED LIST -->
+  <div class="screen" id="screen-saved">
+    <h2 class="title">Saved & homemade</h2>
+    <div class="saved-list" id="saved-list"></div>
+    <button class="secondary" id="btn-back-home4">Back</button>
+  </div>
+
+  <!-- DONE -->
+  <div class="screen" id="screen-done">
+    <div class="done-wrap">
+      <div class="done-mark">Enjoy.</div>
+      <div class="done-sub">Saved for next time.</div>
+      <button class="primary" id="btn-done-home">Back to home</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+
+  // ---------------- Recipe data ----------------
+  const RECIPES = {
+    "Nigerian": [
+      { id:"ng-jollof", name:"Jollof Rice", quick:false, timeMin:60,
+        ingredients:["rice","tomatoes","red bell pepper","onions","tomato paste","vegetable oil","chicken or beef stock","curry powder","thyme","salt","scotch bonnet pepper"],
+        substitutions:{"scotch bonnet pepper":"any hot pepper or a pinch of chili flakes"},
+        steps:["Blend the tomatoes, red bell pepper, and half the onions until smooth.","Fry the tomato paste in oil for a few minutes to cut the raw taste.","Add the blended mix and simmer until it reduces and darkens, about 15-20 minutes.","Stir in curry powder, thyme, and salt.","Add the rice and stock, stir once, then cover and cook on low heat for 30-35 minutes without stirring.","Fluff gently and let it rest 5 minutes before serving."],
+        health:"Hearty and filling — the tomato base is genuinely good for you, just watch the oil quantity if you're cutting back on fat." },
+      { id:"ng-efo", name:"Efo Riro (Spinach Stew)", quick:true, timeMin:30,
+        ingredients:["spinach","red bell pepper","scotch bonnet","onions","palm oil","ground crayfish","assorted meat or beef","seasoning cubes","salt"],
+        substitutions:{"palm oil":"vegetable oil, though the flavor changes slightly"},
+        steps:["Blend the pepper, scotch bonnet, and onions coarsely.","Heat palm oil and fry the blended pepper mix until it reduces, about 8-10 minutes.","Add cooked meat or protein and stir through.","Stir in ground crayfish and seasoning.","Add chopped spinach and simmer for 5-8 minutes until just wilted.","Adjust salt and serve hot."],
+        health:"One of the better-for-you Nigerian classics — plenty of greens, just keep an eye on the palm oil amount." },
+      { id:"ng-moimoi", name:"Moimoi (Steamed Bean Pudding)", quick:false, timeMin:75,
+        ingredients:["peeled black-eyed beans","red bell pepper","onions","scotch bonnet","vegetable oil","eggs","stock cubes","salt","ground crayfish"],
+        substitutions:{},
+        steps:["Blend the beans with the pepper, onions, and a little water until smooth.","Mix in oil, seasoning cubes, crayfish, and eggs if using.","Pour the mixture into ramekins, foil wraps, or a loaf tin.","Steam over simmering water for 45-60 minutes until firm in the center.","Let cool slightly before unmolding and serving."],
+        health:"Bean-based and protein-rich — a solid choice if you want something filling that isn't heavy on oil." },
+      { id:"ng-suya", name:"Suya (Grilled Spiced Beef)", quick:true, timeMin:25,
+        ingredients:["beef","suya spice (yaji)","onions","vegetable oil","salt"],
+        substitutions:{"suya spice (yaji)":"a blend of ground roasted peanuts, cayenne, ginger, garlic powder, and paprika"},
+        steps:["Slice the beef thin against the grain.","Coat lightly in oil, then rub generously with yaji spice.","Thread onto skewers with pieces of onion.","Grill or pan-sear on high heat, turning until charred and cooked through, about 10-12 minutes.","Serve with extra spice and sliced raw onion on the side."],
+        health:"Lean protein done simply — go easy on the peanut-based spice mix if sodium is a concern." }
+    ],
+    "Zambian": [
+      { id:"zm-nshima", name:"Nshima", quick:true, timeMin:20,
+        ingredients:["mealie meal (maize flour)","water"],
+        substitutions:{},
+        steps:["Bring water to a boil in a heavy pot.","Mix a small amount of mealie meal with cold water into a smooth paste and stir it into the boiling water.","Let it cook for a couple of minutes, stirring.","Gradually add the remaining mealie meal while stirring vigorously to avoid lumps.","Keep stirring and turning until thick, smooth, and pulling away from the pot sides.","Cook a few more minutes on low heat, then shape and serve."],
+        health:"A simple starch — pair it with a vegetable relish to round out the plate." },
+      { id:"zm-ifisashi", name:"Ifisashi (Greens in Groundnut Sauce)", quick:true, timeMin:25,
+        ingredients:["pumpkin leaves","roasted groundnut (peanut) powder","onions","tomatoes","salt","water","cooking oil"],
+        substitutions:{"pumpkin leaves":"spinach or collard greens"},
+        steps:["Sauté the onions and tomatoes in a little oil until soft.","Add the chopped greens and cook until they begin to wilt.","Mix the groundnut powder with a little water into a smooth paste and stir it in.","Simmer until the greens are tender and the sauce thickens, about 10-12 minutes.","Season with salt to taste."],
+        health:"Greens plus peanut protein — nutritious overall, just naturally rich given the groundnut content." },
+      { id:"zm-kapenta", name:"Kapenta with Vegetables", quick:true, timeMin:20,
+        ingredients:["dried or frozen kapenta","onions","tomatoes","cooking oil","chili","vegetables of choice"],
+        substitutions:{"kapenta":"any small dried or fresh fish"},
+        steps:["Rinse the kapenta well; soak briefly if very dry.","Fry onions and tomatoes in oil until softened.","Add the kapenta and stir through.","Add chopped vegetables and a splash of water.","Simmer until everything is cooked through, about 10 minutes.","Season and serve."],
+        health:"Good source of protein and calcium from the small fish bones — a lighter option overall." },
+      { id:"zm-village-chicken", name:"Village Chicken Stew", quick:false, timeMin:50,
+        ingredients:["chicken pieces","onions","tomatoes","garlic","cooking oil","salt","water"],
+        substitutions:{},
+        steps:["Brown the chicken pieces in oil, then set them aside.","In the same pot, sauté onions, tomatoes, and garlic until soft.","Return the chicken to the pot.","Add water, cover, and simmer until the chicken is tender and the sauce has thickened, about 30-35 minutes.","Season to taste and serve."],
+        health:"A straightforward, less-processed chicken stew — easy to lighten by trimming visible fat before cooking." }
+    ],
+    "Indian": [
+      { id:"in-butterchicken", name:"Butter Chicken (Quick Version)", quick:true, timeMin:35,
+        ingredients:["chicken thighs","yogurt","ginger-garlic paste","garam masala","tomato puree","butter","cream","chili powder","salt"],
+        substitutions:{"cream":"extra yogurt or coconut milk for a lighter version"},
+        steps:["Marinate the chicken briefly in yogurt, ginger-garlic paste, and a pinch of garam masala.","Sear the chicken in a hot pan until browned, then set aside.","In the same pan, melt butter and sauté ginger-garlic paste.","Add tomato puree and simmer until it thickens slightly.","Stir in cream and remaining spices.","Return the chicken and simmer until fully cooked through, about 10 minutes."],
+        health:"Rich and comforting — cut the cream slightly or swap in yogurt to lighten it without losing much flavor." },
+      { id:"in-chana", name:"Chana Masala", quick:true, timeMin:25,
+        ingredients:["chickpeas","onions","tomatoes","ginger-garlic paste","cumin","coriander powder","garam masala","chili powder","oil","salt"],
+        substitutions:{},
+        steps:["Sauté onions in oil until golden.","Add ginger-garlic paste and cook until fragrant.","Add tomatoes and spices, cooking until the oil separates from the mix.","Add chickpeas and a splash of water.","Simmer for 10 minutes, mashing a few chickpeas to thicken the sauce.","Adjust salt and serve."],
+        health:"One of the healthiest options here — plant protein, minimal oil, and easy to make often." },
+      { id:"in-aloogobi", name:"Aloo Gobi (Potato & Cauliflower)", quick:true, timeMin:30,
+        ingredients:["potatoes","cauliflower","onions","turmeric","cumin seeds","coriander powder","chili powder","oil","salt","cilantro"],
+        substitutions:{},
+        steps:["Heat oil and add cumin seeds until they sizzle.","Add potatoes and cauliflower along with turmeric and salt.","Cover and cook, stirring occasionally, until tender, about 15-18 minutes.","Stir in the remaining spices.","Garnish with cilantro and serve."],
+        health:"Vegetable-forward and light on oil if kept simple — a good side or light main." },
+      { id:"in-daltadka", name:"Dal Tadka", quick:true, timeMin:30,
+        ingredients:["yellow lentils (toor dal)","turmeric","onions","tomatoes","garlic","cumin seeds","dried red chili","ghee or oil","salt","cilantro"],
+        substitutions:{"ghee":"vegetable oil"},
+        steps:["Boil the lentils with turmeric until soft, about 15-20 minutes.","Separately, heat ghee and temper cumin seeds, garlic, and dried chili until fragrant.","Add onions and tomatoes to the tempering and cook briefly.","Pour the tempering into the cooked dal and stir.","Simmer a few minutes, garnish with cilantro, and serve."],
+        health:"Simple, protein-rich, and easy on the stomach — a good reset meal." }
+    ],
+    "Chinese": [
+      { id:"cn-friedrice", name:"Fried Rice", quick:true, timeMin:20,
+        ingredients:["cooked cold rice","eggs","mixed vegetables","soy sauce","garlic","green onions","oil"],
+        substitutions:{},
+        steps:["Scramble the eggs in a hot pan, then set aside.","Stir-fry garlic briefly in oil.","Add the vegetables and stir-fry until just tender.","Add the rice, breaking up any clumps.","Stir in soy sauce and fold in the eggs and green onions.","Toss well and serve hot."],
+        health:"Easy to make healthier by loading up on vegetables and going light on soy sauce for sodium." },
+      { id:"cn-stirfry", name:"Chicken Stir Fry", quick:true, timeMin:25,
+        ingredients:["chicken breast or thigh","mixed vegetables","garlic","ginger","soy sauce","cornstarch","oil"],
+        substitutions:{},
+        steps:["Slice the chicken thin and toss lightly in cornstarch.","Stir-fry the chicken until cooked through, then set aside.","Stir-fry garlic, ginger, and vegetables in the same pan.","Return the chicken to the pan.","Add soy sauce and toss everything together until well coated.","Serve immediately."],
+        health:"Balanced protein and vegetables — a solid weeknight option, especially with brown rice on the side." },
+      { id:"cn-sweetsour", name:"Sweet and Sour (Quick Version)", quick:true, timeMin:30,
+        ingredients:["chicken or pork","bell peppers","pineapple","onions","ketchup","vinegar","sugar","soy sauce","cornstarch","oil"],
+        substitutions:{},
+        steps:["Coat the protein lightly in cornstarch and pan-fry until cooked through, then set aside.","Sauté the peppers, onions, and pineapple until just softened.","Mix ketchup, vinegar, sugar, and soy sauce, then add to the pan.","Simmer until the sauce thickens slightly.","Return the protein and toss to coat.","Serve hot."],
+        health:"Tasty but on the sweeter side — good for an occasional treat rather than an everyday dish." },
+      { id:"cn-garlicnoodles", name:"Garlic Noodles", quick:true, timeMin:15,
+        ingredients:["noodles","garlic","soy sauce","oyster sauce","sugar","oil","green onions"],
+        substitutions:{},
+        steps:["Cook the noodles according to package instructions.","Sauté garlic in oil until fragrant, being careful not to burn it.","Add soy sauce, oyster sauce, sugar, and a splash of pasta water.","Toss the noodles in the sauce until well coated.","Top with green onions and serve."],
+        health:"Quick and satisfying, but sauce-forward — pair with a side of vegetables or protein for balance." }
+    ],
+    "Mexican": [
+      { id:"mx-pastor", name:"Tacos al Pastor (Simplified)", quick:true, timeMin:30,
+        ingredients:["pork or chicken","achiote paste or paprika, cumin, and garlic","pineapple","onions","tortillas","cilantro","lime"],
+        substitutions:{"achiote paste":"a mix of paprika, cumin, garlic powder, and a little vinegar"},
+        steps:["Marinate the protein in achiote paste or the spice mix for at least 15-20 minutes.","Sear until cooked through and slightly charred at the edges.","Pan-sear chopped pineapple briefly until caramelized.","Warm the tortillas.","Assemble with the protein, pineapple, onion, and cilantro; finish with lime."],
+        health:"Bright and fresh with the pineapple and lime — keep the tortilla portion in check if you're watching carbs." },
+      { id:"mx-enchiladas", name:"Chicken Enchiladas Verdes", quick:false, timeMin:45,
+        ingredients:["shredded chicken","corn tortillas","salsa verde","onions","cheese","sour cream","cilantro"],
+        substitutions:{},
+        steps:["Mix shredded chicken with a little salsa verde and chopped onions.","Roll the mixture into the tortillas and place seam-side down in a baking dish.","Cover with the remaining salsa verde and cheese.","Bake at 375°F (190°C) until bubbly, about 20 minutes.","Top with cilantro and a dollop of sour cream."],
+        health:"Comforting and cheesy — go light on the cheese and sour cream to keep it from being too heavy." },
+      { id:"mx-beanbowl", name:"Black Bean & Corn Salad Bowls", quick:true, timeMin:20,
+        ingredients:["black beans","corn","rice","tomatoes","avocado","lime","cilantro","cumin","salt"],
+        substitutions:{},
+        steps:["Cook the rice according to package instructions.","Warm the black beans and corn with a pinch of cumin.","Assemble bowls with rice, beans, corn, and chopped tomatoes.","Top with sliced avocado.","Finish with lime juice and cilantro."],
+        health:"One of the lightest, most balanced options here — plenty of fiber and healthy fats from the avocado." },
+      { id:"mx-chilaquiles", name:"Chilaquiles (Quick)", quick:true, timeMin:20,
+        ingredients:["tortilla chips","salsa roja or verde","eggs","cheese","onions","cilantro","sour cream"],
+        substitutions:{},
+        steps:["Heat the salsa in a wide pan until simmering.","Add the tortilla chips and toss gently to coat, cooking briefly so they soften but keep some crunch.","Push the chips to one side and fry the eggs in the same pan.","Top the chips with the eggs, cheese, onions, and cilantro."],
+        health:"A great use for leftover chips — balance it out with extra egg and go light on the cheese." }
+    ],
+    "Italian": [
+      { id:"it-aglio", name:"Spaghetti Aglio e Olio", quick:true, timeMin:20,
+        ingredients:["spaghetti","garlic","olive oil","red pepper flakes","parsley","parmesan","salt"],
+        substitutions:{},
+        steps:["Cook the spaghetti until al dente, reserving a little pasta water.","Gently sauté sliced garlic and red pepper flakes in olive oil until golden, being careful not to burn it.","Toss the drained pasta in the oil with a splash of pasta water.","Finish with chopped parsley and parmesan."],
+        health:"Simple and satisfying — a good light option, though it's easy to over-portion, so watch the serving size." },
+      { id:"it-piccata", name:"Chicken Piccata", quick:true, timeMin:30,
+        ingredients:["chicken breast","flour","butter","olive oil","lemon","capers","chicken stock","garlic","parsley"],
+        substitutions:{},
+        steps:["Pound the chicken thin and dredge lightly in flour.","Sear in butter and oil until golden on both sides, then set aside.","Add garlic, lemon juice, capers, and stock to the pan, simmering to reduce slightly.","Return the chicken to the pan and coat in the sauce.","Garnish with parsley and serve."],
+        health:"Bright and lemony — a lighter option overall since the sauce doesn't rely on cream." },
+      { id:"it-caprese-chicken", name:"Caprese-Style Baked Chicken", quick:true, timeMin:30,
+        ingredients:["chicken breast","tomatoes","fresh mozzarella","basil","balsamic glaze","olive oil","salt","pepper"],
+        substitutions:{},
+        steps:["Season the chicken and sear until browned on both sides.","Top with tomato slices and fresh mozzarella.","Bake at 400°F (200°C) until the chicken is cooked through and the cheese melts, about 12-15 minutes.","Finish with fresh basil and a drizzle of balsamic glaze."],
+        health:"Protein-forward and fresh — a good balance of lean chicken and real vegetables." },
+      { id:"it-minestrone", name:"Minestrone Soup", quick:false, timeMin:45,
+        ingredients:["onions","carrots","celery","garlic","canned tomatoes","vegetable or chicken stock","beans","small pasta","zucchini","parmesan","olive oil","salt","pepper"],
+        substitutions:{},
+        steps:["Sauté onions, carrots, celery, and garlic in olive oil until softened.","Add the tomatoes and stock, bringing to a simmer.","Add the beans and zucchini, cooking until tender.","Add the pasta and cook until al dente.","Finish with parmesan before serving."],
+        health:"Vegetable-packed and filling without being heavy — one of the healthiest options in the whole app." }
+    ],
+    "Thai": [
+      { id:"th-padthai", name:"Pad Thai (Quick)", quick:true, timeMin:30,
+        ingredients:["rice noodles","eggs","tofu, shrimp, or chicken","bean sprouts","green onions","peanuts","tamarind paste or lime, fish sauce, and sugar","garlic"],
+        substitutions:{"tamarind paste":"a mix of lime juice, fish sauce, and a little brown sugar"},
+        steps:["Soak the rice noodles until pliable.","Scramble the eggs and set aside.","Stir-fry the protein with garlic until cooked through.","Add the noodles and sauce, tossing to coat evenly.","Add bean sprouts and green onions, tossing briefly.","Top with crushed peanuts before serving."],
+        health:"Balanced with protein and vegetables — go easy on added sugar in the sauce if you're watching that." },
+      { id:"th-greencurry", name:"Green Curry", quick:true, timeMin:30,
+        ingredients:["chicken or vegetables","green curry paste","coconut milk","fish sauce","sugar","Thai basil","bell peppers"],
+        substitutions:{},
+        steps:["Fry the green curry paste in a little coconut milk until fragrant.","Add the remaining coconut milk and stir to combine.","Add the protein and vegetables, simmering until cooked through.","Season with fish sauce and sugar to taste.","Finish with Thai basil just before serving."],
+        health:"Rich from the coconut milk — a smaller portion over rice keeps it satisfying without being too heavy." },
+      { id:"th-basilchicken", name:"Thai Basil Chicken (Pad Krapow)", quick:true, timeMin:20,
+        ingredients:["ground chicken","garlic","chili","Thai basil","soy sauce","fish sauce","sugar","egg"],
+        substitutions:{},
+        steps:["Stir-fry garlic and chili in oil until fragrant.","Add the ground chicken, breaking it up as it cooks through.","Stir in soy sauce, fish sauce, and sugar.","Add Thai basil at the very end, just until wilted.","Serve over rice, topped with a fried egg if desired."],
+        health:"Quick and protein-heavy — the fried egg adds richness, so skip it for a lighter version." },
+      { id:"th-tomyum", name:"Tom Yum Soup", quick:true, timeMin:25,
+        ingredients:["shrimp or chicken","lemongrass","kaffir lime leaves","galangal or ginger","chili","mushrooms","fish sauce","lime juice","cilantro"],
+        substitutions:{"galangal":"fresh ginger"},
+        steps:["Simmer lemongrass, lime leaves, and galangal in water or stock to infuse the broth.","Add mushrooms and the protein, cooking until done.","Season with fish sauce, lime juice, and chili to taste.","Garnish with cilantro before serving."],
+        health:"Light, brothy, and full of flavor — one of the lowest-calorie options in the app." }
+    ],
+    "Ethiopian": [
+      { id:"et-dorowat", name:"Doro Wat (Chicken Stew)", quick:false, timeMin:70,
+        ingredients:["chicken","berbere spice","onions","garlic","ginger","butter (niter kibbeh if available)","hard-boiled eggs","chicken stock"],
+        substitutions:{"niter kibbeh":"regular butter, though the flavor will be milder"},
+        steps:["Cook the onions slowly without oil until very soft and deeply browned, about 15-20 minutes.","Add butter, garlic, ginger, and berbere spice, cooking until fragrant.","Add the chicken and stock, then simmer until the chicken is tender, about 30-35 minutes.","Add hard-boiled eggs in the last few minutes to warm through."],
+        health:"Deeply flavorful and spiced — the slow-cooked onions make it rich, so a modest portion goes a long way." },
+      { id:"et-misirwat", name:"Misir Wat (Spiced Red Lentils)", quick:true, timeMin:30,
+        ingredients:["red lentils","berbere spice","onions","garlic","ginger","tomato paste","oil","salt"],
+        substitutions:{},
+        steps:["Sauté the onions until soft.","Add garlic, ginger, and berbere spice, cooking until fragrant.","Stir in tomato paste and cook briefly.","Add the lentils and water, simmering until they break down and thicken, about 20-25 minutes."],
+        health:"One of the healthiest dishes in the whole app — plant protein, fiber, and genuinely simple ingredients." },
+      { id:"et-gomen", name:"Gomen (Collard Greens)", quick:true, timeMin:25,
+        ingredients:["collard greens","onions","garlic","ginger","jalapeño","oil","salt"],
+        substitutions:{},
+        steps:["Sauté onions, garlic, and ginger until soft.","Add the chopped collard greens.","Cook down until tender, stirring occasionally, about 15-20 minutes.","Season with salt to taste."],
+        health:"Simple, green, and light — a good side to balance out a richer main like doro wat." },
+      { id:"et-tibs", name:"Tibs (Sautéed Beef or Lamb)", quick:true, timeMin:25,
+        ingredients:["beef or lamb","onions","garlic","rosemary","jalapeño","berbere or plain seasoning","oil"],
+        substitutions:{},
+        steps:["Sear the meat in a hot pan until browned.","Add onions and garlic, cooking until softened.","Season with rosemary, berbere, and jalapeño.","Cook until the meat is done to your preference."],
+        health:"Protein-forward — a lean cut of meat keeps this on the lighter side." }
+    ],
+    "Mediterranean": [
+      { id:"me-shawarma", name:"Chicken Shawarma Bowls", quick:true, timeMin:35,
+        ingredients:["chicken thighs","garlic","lemon","cumin","paprika","turmeric","rice or pita","cucumber","tomato","tahini sauce"],
+        substitutions:{},
+        steps:["Marinate the chicken in garlic, lemon, and spices for at least 15-20 minutes.","Sear or grill until cooked through and slightly charred.","Slice thin.","Assemble bowls with rice or pita, cucumber, and tomato.","Finish with a drizzle of tahini sauce."],
+        health:"Lean protein with fresh vegetables — a well-balanced, filling option." },
+      { id:"me-falafel", name:"Falafel (Baked, Quick Version)", quick:true, timeMin:30,
+        ingredients:["canned chickpeas","garlic","onion","parsley","cumin","coriander","flour","baking powder","oil"],
+        substitutions:{},
+        steps:["Pulse chickpeas, garlic, onion, parsley, and spices in a food processor until combined but not pureed.","Mix in flour and baking powder.","Form into small patties.","Bake or pan-fry until golden on both sides, about 20 minutes if baking."],
+        health:"Plant-based and fiber-rich — baking instead of deep-frying keeps it lighter without losing much flavor." },
+      { id:"me-greeksalad", name:"Greek Salad with Grilled Chicken", quick:true, timeMin:25,
+        ingredients:["chicken breast","cucumber","tomatoes","red onion","feta cheese","olives","olive oil","oregano","lemon"],
+        substitutions:{},
+        steps:["Season and grill the chicken until cooked through, then slice.","Toss cucumber, tomatoes, red onion, and olives with olive oil, lemon, and oregano.","Top with feta and the sliced chicken."],
+        health:"Fresh and light — go easy on the feta and olives if watching sodium, otherwise a great balanced meal." },
+      { id:"me-shakshuka", name:"Shakshuka", quick:true, timeMin:25,
+        ingredients:["eggs","tomatoes","red bell pepper","onions","garlic","cumin","paprika","chili flakes","olive oil","feta","bread"],
+        substitutions:{},
+        steps:["Sauté onions and peppers until soft.","Add garlic and spices, cooking until fragrant.","Add tomatoes and simmer until thickened, about 10 minutes.","Make small wells in the sauce and crack in the eggs.","Cover and cook until the eggs are set to your liking.","Top with feta if using and serve with bread."],
+        health:"Vegetable-forward with protein from the eggs — a genuinely balanced meal any time of day." }
+    ],
+    "Caribbean": [
+      { id:"cb-jerk", name:"Jerk Chicken", quick:false, timeMin:45,
+        ingredients:["chicken","scotch bonnet pepper","allspice","thyme","garlic","ginger","soy sauce","brown sugar","lime","green onions"],
+        substitutions:{},
+        steps:["Blend scotch bonnet, allspice, thyme, garlic, ginger, soy sauce, brown sugar, and lime into a marinade.","Coat the chicken and marinate as long as possible — even 20-30 minutes helps.","Grill or bake until cooked through and caramelized in spots, about 30-35 minutes."],
+        health:"Bold and spiced without needing much added fat — a lean, flavorful protein option." },
+      { id:"cb-riceandpeas", name:"Rice and Peas", quick:true, timeMin:35,
+        ingredients:["rice","kidney beans","coconut milk","onions","garlic","thyme","scotch bonnet (whole)","allspice","salt"],
+        substitutions:{},
+        steps:["Sauté onions and garlic.","Add coconut milk, beans, thyme, and a whole scotch bonnet pepper for flavor without too much heat.","Bring to a boil, then add the rice.","Cover and simmer until the rice is cooked, about 20 minutes.","Remove the whole pepper before serving."],
+        health:"Rich from the coconut milk — pair with a lighter protein and vegetables to balance the meal." },
+      { id:"cb-currygoat", name:"Curry Goat or Chicken", quick:false, timeMin:75,
+        ingredients:["goat or chicken","curry powder","onions","garlic","thyme","scotch bonnet","potatoes","allspice","oil"],
+        substitutions:{},
+        steps:["Brown the meat in oil.","Add onions, garlic, and curry powder, cooking until fragrant.","Add water, potatoes, thyme, and scotch bonnet.","Simmer until the meat is tender — about 45-60 minutes for goat, less for chicken."],
+        health:"Hearty and spiced — a great option for a slower weekend cook rather than a weeknight." },
+      { id:"cb-escovitch", name:"Escovitch Fish", quick:true, timeMin:30,
+        ingredients:["whole fish or fillets","carrots","bell peppers","onions","scotch bonnet","vinegar","allspice","oil","salt"],
+        substitutions:{},
+        steps:["Season and fry the fish until crisp and cooked through.","Sauté carrots, peppers, onions, and scotch bonnet briefly, keeping some crunch.","Add a splash of vinegar and allspice to the vegetables.","Pour the pickled vegetables over the fried fish and serve."],
+        health:"Frying adds richness, but the vinegar-vegetable topping brings brightness and balance." }
+    ],
+    "American": [
+      { id:"am-sheetpan", name:"Sheet Pan Chicken & Veggies", quick:true, timeMin:35,
+        ingredients:["chicken thighs or breast","potatoes","mixed vegetables","olive oil","garlic powder","paprika","salt","pepper"],
+        substitutions:{},
+        steps:["Preheat the oven to 425°F (220°C).","Toss the chicken, potatoes, and vegetables in oil and spices.","Spread everything in a single layer on a sheet pan.","Roast until the chicken is cooked through and vegetables are tender, about 25-30 minutes.","Let rest a few minutes before serving."],
+        health:"One of the lighter, easiest options — minimal oil, real vegetables, hard to mess up." },
+      { id:"am-pasta", name:"Quick Pasta (Garlic Butter or Marinara)", quick:true, timeMin:20,
+        ingredients:["pasta","garlic","butter or olive oil","parmesan","marinara sauce","salt","pepper","herbs"],
+        substitutions:{},
+        steps:["Boil the pasta until al dente.","Sauté garlic in butter or olive oil, or heat marinara sauce if using.","Toss the drained pasta directly in the sauce.","Top with parmesan and herbs.","Serve immediately."],
+        health:"Comforting but simple — bulk it up with vegetables or a protein to make it a fuller meal." },
+      { id:"am-tacos", name:"Tacos", quick:true, timeMin:20,
+        ingredients:["ground beef or chicken","taco seasoning","tortillas","lettuce","tomato","cheese","salsa","sour cream"],
+        substitutions:{},
+        steps:["Brown the protein in a pan with taco seasoning.","Warm the tortillas.","Assemble with lettuce, tomato, cheese, and toppings of choice.","Serve with salsa on the side."],
+        health:"Easy to make lighter by using lean meat, more vegetable toppings, and less cheese or sour cream." },
+      { id:"am-grilledsalad", name:"Grilled Chicken with Salad", quick:true, timeMin:25,
+        ingredients:["chicken breast","mixed greens","olive oil","lemon","salt","pepper","vegetables of choice"],
+        substitutions:{},
+        steps:["Season the chicken with salt and pepper.","Grill or pan-sear until cooked through, about 6-7 minutes per side.","Let rest, then slice.","Toss greens and vegetables with olive oil and a squeeze of lemon.","Top the salad with sliced chicken and serve."],
+        health:"The lightest option in the list — lean protein, fresh vegetables, minimal added fat." }
+    ]
+  };
+
+  const RESCUE = [
+    { id:"r-chicken", name:"Frozen chicken",
+      steps:"If you have a few minutes, thaw briefly under cold running water — otherwise cook straight from frozen on lower heat with the pan covered so it cooks through evenly. Season generously (garlic powder, paprika, salt, pepper, or suya spice for a Nigerian lean). Once cooked through, deglaze the pan with a splash of stock and a knob of butter for a quick pan sauce — that last step is what makes it taste intentional instead of just thawed." },
+    { id:"r-fish", name:"Frozen fish or tilapia",
+      steps:"Rinse briefly under cool water to knock off the ice glaze, then pat dry. Season with lemon, garlic, paprika, and salt. Pan-fry in a hot pan with oil until it flakes easily, about 4-5 minutes per side depending on thickness. Serve over whatever starch you already have on hand." },
+    { id:"r-vegetables", name:"Frozen mixed vegetables",
+      steps:"Skip thawing entirely — go straight into a hot, well-oiled pan. Add garlic and a splash of soy sauce or a crumbled bouillon cube for depth. Stir-fry on high heat and pull it off before it turns mushy — frozen vegetables cook fast." },
+    { id:"r-rice", name:"Frozen rice",
+      steps:"Don't just reheat it plain — treat it like a mini fried rice. Reheat in a pan with a little oil, a splash of soy sauce, or a spoonful of leftover stew stirred through, breaking up clumps as it warms." },
+    { id:"r-plantain", name:"Frozen plantain",
+      steps:"Fry it straight from frozen in a bit of oil until golden on both sides — thawing first makes it go mushy and hard to slice cleanly. Medium heat, a few minutes per side, and it comes out close to fresh." },
+    { id:"r-mince", name:"Frozen ground beef or mince",
+      steps:"Brown it directly from frozen over medium heat, breaking it apart as it thaws and cooks. Once it's mostly broken up, season generously — taco seasoning, or garlic and tomato paste for a quick pasta sauce base, or onions and stock for a simple stew." }
+  ];
+
+  // ---------------- State ----------------
+  const state = {
+    moreTime: false,
+    cuisine: null,
+    dish: null,
+    ingredientHave: {},
+    stepIdx: 0,
+  };
+
+  function showScreen(id){
+    document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+  }
+
+  document.getElementById('btn-home').addEventListener('click', () => showScreen('screen-home'));
+
+  // ---------------- Time toggle ----------------
+  const timeSwitch = document.getElementById('time-switch');
+  timeSwitch.addEventListener('click', () => {
+    state.moreTime = !state.moreTime;
+    timeSwitch.classList.toggle('on', state.moreTime);
+  });
+
+  // ---------------- Storage helpers ----------------
+  async function loadData(){
+    try{
+      const r = await window.storage.get('good-eats-data', false);
+      return r ? JSON.parse(r.value) : { custom: [], cookCounts: {} };
+    }catch(e){
+      return { custom: [], cookCounts: {} };
+    }
+  }
+  async function saveData(data){
+    try{ await window.storage.set('good-eats-data', JSON.stringify(data), false); }
+    catch(e){ /* best effort */ }
+  }
+
+  // ---------------- Craving flow ----------------
+  document.getElementById('btn-craving').addEventListener('click', async () => {
+    const grid = document.getElementById('cuisine-grid');
+    grid.innerHTML = '';
+    const cuisines = Object.keys(RECIPES);
+    cuisines.forEach(c => {
+      const card = document.createElement('div');
+      card.className = 'cuisine-card';
+      card.textContent = c;
+      card.addEventListener('click', () => openCuisine(c));
+      grid.appendChild(card);
+    });
+    const surprise = document.createElement('div');
+    surprise.className = 'cuisine-card';
+    surprise.textContent = "Surprise me";
+    surprise.addEventListener('click', () => {
+      const all = cuisines[Math.floor(Math.random()*cuisines.length)];
+      openCuisine(all);
+    });
+    grid.appendChild(surprise);
+    showScreen('screen-cuisine');
+  });
+  document.getElementById('btn-back-home1').addEventListener('click', () => showScreen('screen-home'));
+
+  async function openCuisine(cuisine){
+    state.cuisine = cuisine;
+    document.getElementById('dish-cuisine-title').textContent = cuisine + " picks";
+    const list = document.getElementById('dish-list');
+    list.innerHTML = '';
+    const data = await loadData();
+    let dishes = [...RECIPES[cuisine]];
+    // merge in custom homemade recipes tagged to this cuisine
+    const customForCuisine = data.custom.filter(r => r.cuisine.toLowerCase() === cuisine.toLowerCase());
+    dishes = dishes.concat(customForCuisine.map(r => ({...r, homemade:true})));
+    // sort: quick first unless more time toggled
+    dishes.sort((a,b) => {
+      if(state.moreTime) return 0;
+      return (a.quick === b.quick) ? 0 : (a.quick ? -1 : 1);
+    });
+    dishes.forEach(d => {
+      const card = document.createElement('div');
+      card.className = 'dish-card';
+      const cookCount = data.cookCounts[d.id] || 0;
+      card.innerHTML = `<div class="dish-name">${d.name}</div>
+        <div class="dish-meta">
+          <span class="badge ${d.quick ? '' : 'slow'}">${d.quick ? 'Quick' : 'Takes time'}</span>
+          <span>${d.timeMin} min</span>
+          ${d.homemade ? '<span class="badge homemade">Homemade</span>' : ''}
+          ${cookCount > 0 ? `<span>· cooked ${cookCount}x</span>` : ''}
+        </div>`;
+      card.addEventListener('click', () => openDish(d));
+      list.appendChild(card);
+    });
+    showScreen('screen-dish');
+  }
+  document.getElementById('btn-back-cuisine').addEventListener('click', () => showScreen('screen-cuisine'));
+
+  function openDish(dish){
+    state.dish = dish;
+    state.ingredientHave = {};
+    document.getElementById('ing-dish-name').textContent = dish.name;
+    const list = document.getElementById('ing-list');
+    list.innerHTML = '';
+    dish.ingredients.forEach(ing => {
+      const row = document.createElement('div');
+      row.className = 'ing-row';
+      row.innerHTML = `
+        <span class="ing-name">${ing}</span>
+        <div class="ing-toggle">
+          <div class="ing-btn yes" data-ing="${ing}">Have it</div>
+          <div class="ing-btn no" data-ing="${ing}">Don't</div>
+        </div>`;
+      list.appendChild(row);
+      const subKey = Object.keys(dish.substitutions || {}).find(k => k.toLowerCase() === ing.toLowerCase());
+      if(subKey){
+        const note = document.createElement('div');
+        note.className = 'sub-note';
+        note.style.display = 'none';
+        note.textContent = `Swap: ${dish.substitutions[subKey]}`;
+        note.dataset.for = ing;
+        list.appendChild(note);
+      }
+    });
+    list.querySelectorAll('.ing-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const ing = btn.dataset.ing;
+        const isYes = btn.classList.contains('yes');
+        state.ingredientHave[ing] = isYes;
+        const siblings = list.querySelectorAll(`.ing-btn[data-ing="${CSS.escape(ing)}"]`);
+        siblings.forEach(s => s.classList.remove('sel'));
+        btn.classList.add('sel');
+        const note = list.querySelector(`.sub-note[data-for="${CSS.escape(ing)}"]`);
+        if(note) note.style.display = (!isYes) ? 'block' : 'none';
+      });
+    });
+    showScreen('screen-ingredients');
+  }
+  document.getElementById('btn-back-dish').addEventListener('click', () => showScreen('screen-dish'));
+
+  document.getElementById('btn-to-steps').addEventListener('click', () => {
+    state.stepIdx = 0;
+    document.getElementById('steps-dish-name').textContent = state.dish.name;
+    renderStep();
+    showScreen('screen-steps');
+  });
+
+  function renderStep(){
+    const steps = state.dish.steps;
+    document.getElementById('step-progress').textContent = `Step ${state.stepIdx + 1} of ${steps.length}`;
+    document.getElementById('step-text').textContent = steps[state.stepIdx];
+    document.getElementById('btn-prev-step').disabled = state.stepIdx === 0;
+    document.getElementById('btn-next-step').textContent = (state.stepIdx === steps.length - 1) ? "Finish" : "Next";
+  }
+  document.getElementById('btn-prev-step').addEventListener('click', () => {
+    if(state.stepIdx > 0){ state.stepIdx--; renderStep(); }
+  });
+  document.getElementById('btn-next-step').addEventListener('click', async () => {
+    const steps = state.dish.steps;
+    if(state.stepIdx < steps.length - 1){
+      state.stepIdx++;
+      renderStep();
+    } else {
+      // log cook count
+      const data = await loadData();
+      data.cookCounts[state.dish.id] = (data.cookCounts[state.dish.id] || 0) + 1;
+      await saveData(data);
+      document.getElementById('health-text').textContent = state.dish.health || "No notes on this one yet.";
+      showScreen('screen-health');
+    }
+  });
+
+  document.getElementById('btn-to-save').addEventListener('click', () => showScreen('screen-done'));
+  document.getElementById('btn-skip-save').addEventListener('click', () => showScreen('screen-done'));
+  document.getElementById('btn-done-home').addEventListener('click', () => showScreen('screen-home'));
+
+  // ---------------- Rescue flow ----------------
+  document.getElementById('btn-rescue').addEventListener('click', () => {
+    const grid = document.getElementById('rescue-grid');
+    grid.innerHTML = '';
+    RESCUE.forEach(r => {
+      const card = document.createElement('div');
+      card.className = 'rescue-card';
+      card.textContent = r.name;
+      card.addEventListener('click', () => {
+        document.getElementById('rescue-item-name').textContent = r.name;
+        document.getElementById('rescue-steps').textContent = r.steps;
+        showScreen('screen-rescue-plan');
+      });
+      grid.appendChild(card);
+    });
+    showScreen('screen-rescue');
+  });
+  document.getElementById('btn-back-home2').addEventListener('click', () => showScreen('screen-home'));
+  document.getElementById('btn-rescue-done').addEventListener('click', () => showScreen('screen-home'));
+
+  // ---------------- Add recipe ----------------
+  document.getElementById('btn-addrecipe').addEventListener('click', () => showScreen('screen-add'));
+  document.getElementById('btn-back-home3').addEventListener('click', () => showScreen('screen-home'));
+
+  document.getElementById('btn-save-recipe').addEventListener('click', async () => {
+    const name = document.getElementById('add-name').value.trim();
+    const cuisine = document.getElementById('add-cuisine').value.trim();
+    const ingredientsRaw = document.getElementById('add-ingredients').value.trim();
+    const stepsRaw = document.getElementById('add-steps').value.trim();
+    const timeMin = parseInt(document.getElementById('add-time').value.trim(), 10) || 30;
+    const health = document.getElementById('add-health').value.trim();
+
+    if(!name || !cuisine || !ingredientsRaw || !stepsRaw){
+      alert("Please fill in at least the name, cuisine, ingredients, and steps.");
+      return;
+    }
+
+    const recipe = {
+      id: 'custom-' + Date.now(),
+      name, cuisine, timeMin,
+      quick: timeMin <= 30,
+      ingredients: ingredientsRaw.split('\n').map(s => s.trim()).filter(Boolean),
+      substitutions: {},
+      steps: stepsRaw.split('\n').map(s => s.trim()).filter(Boolean),
+      health: health || "No notes on this one yet."
+    };
+
+    const data = await loadData();
+    data.custom.push(recipe);
+    await saveData(data);
+
+    document.getElementById('add-name').value = '';
+    document.getElementById('add-cuisine').value = '';
+    document.getElementById('add-ingredients').value = '';
+    document.getElementById('add-steps').value = '';
+    document.getElementById('add-time').value = '';
+    document.getElementById('add-health').value = '';
+
+    showScreen('screen-home');
+  });
+
+  // ---------------- Saved & homemade ----------------
+  document.getElementById('btn-saved').addEventListener('click', async () => {
+    const data = await loadData();
+    const list = document.getElementById('saved-list');
+    list.innerHTML = '';
+    if(data.custom.length === 0){
+      list.innerHTML = '<div class="empty-note">No homemade recipes saved yet — add one from the home screen.</div>';
+    } else {
+      data.custom.forEach(r => {
+        const card = document.createElement('div');
+        card.className = 'dish-card';
+        card.innerHTML = `<div class="dish-name">${r.name}</div>
+          <div class="dish-meta"><span class="badge homemade">Homemade</span><span>${r.cuisine}</span><span>${r.timeMin} min</span></div>`;
+        card.addEventListener('click', () => openDish(r));
+        list.appendChild(card);
+      });
+    }
+    showScreen('screen-saved');
+  });
+  document.getElementById('btn-back-home4').addEventListener('click', () => showScreen('screen-home'));
+
+})();
+</script>
+</body>
+</html>
